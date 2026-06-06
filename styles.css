@@ -1,0 +1,27 @@
+		<style>
+			/* Centre and colour the main heading */
+			h1 { text-align: center; color: white;}
+
+			/* Set background colour, font, and spacing for the whole page */
+			body { background-color: #1d4744;
+			font-family: Arial, sans-serif; margin: 40px; }
+
+			/* Style subheadings */
+			h2 { color: white; }
+			h3 { color: white; }
+
+			/* Style paragraph text */
+			p { color: #a6a6a6; font-size: 18px}
+
+			/* Style all three list types to match the page colour scheme */
+			ul { color: #a6a6a6; }
+			ol { color: #a6a6a6; }
+			dl { color: #a6a6a6; }
+
+			/* Centre the navigation bar */
+			nav { text-align: center; }
+
+			/* Style link text */
+			a { color: white; }
+			a:hover { color: red; text-decoration: none; }
+		</style>
