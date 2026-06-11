@@ -11,6 +11,10 @@
 				height: auto;
 			}
 
+			iframe {
+				max-width: 100%;
+			}
+
 			/* Style subheadings */
 			h2 { color: white; }
 			h3 { color: white; }
