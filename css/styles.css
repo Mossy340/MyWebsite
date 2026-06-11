@@ -6,6 +6,11 @@
 			body { background-color: #1d4744;
 			font-family: Arial, sans-serif; margin: 40px; }
 
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+
 			/* Style subheadings */
 			h2 { color: white; }
 			h3 { color: white; }
