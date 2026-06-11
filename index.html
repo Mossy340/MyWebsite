@@ -2,6 +2,11 @@
 <html lang="en">
 	
 	<head>
+		<!--- Meta tags -->
+		<meta charset="UTF-8">
+		<meta name='viewport'
+			content='width=device-width, initial-scale=1.0'>
+
 		<!-- Browser tab info -->
 		<title>Home</title>
 
@@ -32,59 +37,71 @@
 		<hr>
 
 		<!-- Pesonal profile section -->
-		<h2>Personal Profile</h2>
-		<p style="font-size:18px;">I have a passion for tech and cars since a very young age. From doing maintenance on cars with my father to building my first computer at the age of 12. </p>
-		<p>I chose to persue a career in the computing industry as it has always been a area of interest for me.</p>
+		<div id="profile">
+			<h2>Personal Profile</h2>
+			<p style="font-size:18px;">I have a passion for tech and cars since a very young age. From doing maintenance on cars with my father to building my first computer at the age of 12. </p>
+			<p>I chose to persue a career in the computing industry as it has always been a area of interest for me.</p>
+		</div>
 
 		<!-- Unordered list - bullet points -->
-		<h2>Interests</h2>
-		<ul>
-			<li>Technology and Computer Systems</li>
-			<li>Motorsport and Car Culture</li>
-			<li>Automotive Engineering and Vehicle Modification</li>
-		</ul>
+		<div id="interests">
+			<h2>Interests</h2>
+			<ul>
+				<li class="card">Technology and Computer Systems</li>
+				<li class="card">Motorsport and Car Culture</li>
+				<li class="card">Automotive Engineering and Vehicle Modification</li>
+			</ul>
+		</div>
 
 		<!-- Ordered list - numbered steps (sequence matters) -->
-		<h2>How to do a car oil change</h2> 
-		<ol>
-			<li>Prep and lift the car securely with jack stands or ramps.</li> <li>Draing the old oil completeley into a drain pan.</li> <li>Replace the oil filter with a new lubricated one.</li> <li>Refill the engine with fresh oil.</li><li>Check the dipstick level and inspect for any leaks.</li>
-		</ol>
+		<div id="oil change">
+			<h2>How to do a car oil change</h2> 
+			<ol>
+				<li>Prep and lift the car securely with jack stands or ramps.</li> <li>Draing the old oil completeley into a drain pan.</li> <li>Replace the oil filter with a new lubricated one.</li> <li>Refill the engine with fresh oil.</li><li>Check the dipstick level and inspect for any leaks.</li>
+			</ol>
+
+		</div>
 
 		<!-- Description list - terms and their definitions -->
-		<h2>Core Internet Terms</h2>
-		<dl>
-			<dt style="color: #ffffff; font-weight: bold;">IP Address</dt>
-			<dd>A unique string of number that acts like a home address for any device online.</dd>
-			<dt style="color: #ffffff; font-weight: bold;">DNS</dt>
-			<dd>A phonebook of the internet that turns webiste names into numbers that computers understand like and IP address.</dd>
-			<dt style="color: #ffffff; font-weight: bold;">URL</dt>
-			<dd>The web address you type into the browser to goto a specific page.</dd>
-			<dt style="color: #ffffff; font-weight: bold;">HTTP</dt>
-			<dd>The standard rules and system used for sending and loading webpages across the internet.</dd>
-		</dl>
+			<div id="Internet terms">
+				<h2>Core Internet Terms</h2>
+				<dl>
+					<dt style="color: #ffffff; font-weight: bold;">IP Address</dt>
+					<dd>A unique string of number that acts like a home address for any device online.</dd>
+					<dt style="color: #ffffff; font-weight: bold;">DNS</dt>
+					<dd>A phonebook of the internet that turns webiste names into numbers that computers understand like and IP address.</dd>
+					<dt style="color: #ffffff; font-weight: bold;">URL</dt>
+					<dd>The web address you type into the browser to goto a specific page.</dd>
+					<dt style="color: #ffffff; font-weight: bold;">HTTP</dt>
+					<dd>The standard rules and system used for sending and loading webpages across the internet.</dd>
+				</dl>
+			</div>
 
-		<h2>Web development tems</h2>
-		<table>
-		    <thead>
-		        <tr>
-		            <th>Term</th>
-		            <th>Full Name</th>
-		            <th>Description</th>
-		        </tr>
-		    </thead>
-		    <tbody>
-		        <tr>
-		            <td>HTML</td>
-		            <td>HyperText Markup Language</td>
-		            <td>Defines the structure and content of a web page.</td>
-		        </tr>
-		        <tr>
-		            <td>CSS</td>
-		            <td>Cascading Style Sheets</td>
-		            <td>Controls the appearance and layout of web pages.</td>
-		        </tr>
-		    </tbody>
-		</table>
+		<!-- Table -->
+		<div id="Web dev terms">
+			<h2>Web development terms</h2>
+			<table>
+			    <thead>
+			        <tr>
+			            <th>Term</th>
+			            <th>Full Name</th>
+			            <th>Description</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>HTML</td>
+			            <td>HyperText Markup Language</td>
+			            <td>Defines the structure and content of a web page.</td>
+			        </tr>
+			        <tr>
+			            <td>CSS</td>
+			            <td>Cascading Style Sheets</td>
+			            <td>Controls the appearance and layout of web pages.</td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
 
 		<!-- Text formating examples -->
 
@@ -102,6 +119,14 @@
 
 		<h2>Here is a beginner tutorial for HTML</h2>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=fBi72OlSkNz-0Elm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+		<nav>
+			<a href="#profile">Personal Profile</a>
+			<a href="#interests">Interests</a>
+			<a href="#oil change">How to change your car oil</a>
+			<a href="#internet terms">Core Internet Terms</a>
+			<a href="#Web dev terms">Web Development Terms</a>
+		</nav>
 
 	</body>
 
